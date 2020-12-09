@@ -8,8 +8,9 @@
     }
 
     .paper {
-      margin: 2rem;
+      margin: 2rem auto 2rem auto;
       background-color: #ecdfc8;
+      max-width: 1028px;
     }
 
     h1 {
@@ -32,6 +33,24 @@
     h3 {
       font-family: 'Montserrat', sans-serif;
       color: #11999e;
+    }
+
+    .handwritten {
+      font-family: 'Sacramento', cursive;
+      font-weight: bold;
+    }
+    .section-header {
+      font-size: 3.25rem;
+      font-weight: bold;
+    }
+    .quote-header {
+      color: #11999e;
+    }
+
+    .card-header {
+      color: #11999e;
+      font-size: 2.5rem;
+      margin: 0;
     }
 
     a {
@@ -60,12 +79,42 @@
       line-height: 2;
     }
 
+    .quote-table {
+      margin: auto;
+      width: 100%;
+    }
+
+    .quote-cell {
+      width: 30%;
+    }
+
+    .arrow-cell{
+      width: 5%;
+    }
+
     .quote-box {
       align-content: center;
       margin: 0 15% 0 15%;
       background-color: #EAf6f6;
       border-radius: 1rem;
-      padding: 0.65rem;
+      padding: 1rem;
+      position: relative;
+    }
+
+    .quote-icon {
+      position: absolute;
+      max-width: 20px;
+      max-height: 20px;
+      /*filter: invert(74%) sepia(49%) saturate(339%) hue-rotate(332deg) brightness(96%) contrast(93%);*/
+    }
+    .quote-left {
+      top:0.25rem;
+      left:0.25rem;
+    }
+
+    .quote-right {
+      bottom: 0.25rem;
+      right:0.25rem;
     }
 
     .top-container {
@@ -79,7 +128,7 @@
 
     .bottom-container {
       background-color: #66bfbf;
-      padding: 50px 0 20px;
+      padding: 1rem 0 1rem;
     }
 
     .top-cloud {
@@ -98,28 +147,51 @@
       margin: auto;
     }
 
+    .arrow {
+      color: #ecb390;
+      font-size: 2.5rem;
+    }
+
 
     .skill-row {
-      width: 50%;
+      width: 70%;
       margin: 100px auto 100px auto;
       text-align: left;
       line-height: 2;
     }
-    .skill-img-1 {
-      width: 25%;
-      float: left;
-      margin-right: 30px;
+
+    .icon-path {
+      fill: #ecdfc8;
     }
 
-    .skill-img-1 {
+    .skill-img {
       width: 25%;
+      max-height: 128px;
+      max-width: 128px;
+      /*filter: invert(74%) sepia(49%) saturate(339%) hue-rotate(332deg) brightness(96%) contrast(93%);*/
+      background: #ecb390;
+      border-radius: 12px;
+      padding: 1rem;
+    }
+
+    .left-img {
+      float: left;
+      margin-right: 1rem;
+    }
+
+    .right-img {
       float: right;
-      margin-left: 30px;
+      margin-left: 1rem;
     }
 
     .copyright {
       color: #EAf6f6;
       font-size: 0.75rem;
+    }
+
+    .copyright > a {
+      margin: 0;
+      color: #ecb390;
     }
 
     .btn {
