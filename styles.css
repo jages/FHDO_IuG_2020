@@ -4,7 +4,7 @@
       font-family: 'Merriweather', serif;
       text-align: center;
       margin: 0;
-      
+
     }
 
     .paper {
@@ -43,6 +43,11 @@
       font-size: 3.25rem;
       font-weight: bold;
     }
+
+    .section-second-header {
+      font-size: 2.25rem;
+    }
+
     .quote-header {
       color: #11999e;
     }
@@ -218,7 +223,7 @@
       cursor: pointer;
       text-align: center;
       }
-      
+
     .btn:hover {
       border: solid #337FED 0px;
       background: #30E3CB;

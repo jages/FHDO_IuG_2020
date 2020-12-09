@@ -2,7 +2,7 @@
     display: inline-block;
     position: relative;
   }
-  
+
   #logo .speedometer {
     width: 120px;
     height: 120px;
@@ -44,17 +44,46 @@
   .speedo-container {
       position: relative;
   }
+
+  #label1 {
+    position: absolute;
+    bottom: 100px;
+    left: -70px;
+    font-size: 0.7rem;
+  }
+
+  #label2 {
+    position: absolute;
+    bottom: 160px;
+    left: -40px;
+    font-size: 0.7rem;
+  }
+  #label3 {
+    position: absolute;
+    bottom: 160px;
+    left: 120px;
+    font-size: 0.7rem;
+  }
+  #label4 {
+    position: absolute;
+    bottom: 100px;
+    left: 160px;
+    font-size: 0.7rem;
+  }
+
   #leftSpeedLabel {
     position: absolute;
     bottom: 59px;
     left: -8px;
     font-size: 0.7rem;
+    font-weight: bold;
   }
   #rightSpeedLabel {
     position: absolute;
     bottom: 59px;
     left: 141px;
     font-size: 0.7rem;
+    font-weight: bold;
   }
   .spacer-top {
     margin-top: 75px;
