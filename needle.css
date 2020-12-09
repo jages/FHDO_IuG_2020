@@ -1,0 +1,61 @@
+#logo {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #logo .speedometer {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 20px solid #66bfbf;
+    border-right: 20px solid #ecdfc8;
+    border-bottom: 20px solid #ecdfc8;
+    -webkit-transform: rotate(45deg);
+    display: inline-block;
+  }
+  #logo .needle {
+    width: 10px;
+    height: 90px;
+    background: #999999;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    display: inline-block;
+    left: 70px;
+    position: absolute;
+    top: 10px;
+    -webkit-animation: move 5s infinite;
+    transform: rotate(0deg);
+    transform-origin: bottom;
+  }
+  @-webkit-keyframes move {
+    0% {
+      transform: rotate(-45deg);
+    }
+    50% {
+      transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
+  }
+
+  .speedo-container {
+      position: relative;
+  }
+  #leftSpeedLabel {
+    position: absolute;
+    bottom: 59px;
+    left: -8px;
+    font-size: 0.7rem;
+  }
+  #rightSpeedLabel {
+    position: absolute;
+    bottom: 59px;
+    left: 141px;
+    font-size: 0.7rem;
+  }
+  .spacer-top {
+    margin-top: 75px;
+  }
