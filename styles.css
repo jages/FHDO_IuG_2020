@@ -123,6 +123,14 @@
       right:0.25rem;
     }
 
+    .quote-from {
+      position: absolute;
+      bottom: 0;
+      right: 26px;
+      font-size: 0.75rem;
+      color: #df7861;
+    }
+
     .top-container {
       text-align: center;
       background-color: #EAf6f6;
@@ -172,8 +180,8 @@
 
     .skill-img {
       width: 25%;
-      max-height: 128px;
-      max-width: 128px;
+      max-height: 96px;
+      max-width: 96px;
       /*filter: invert(74%) sepia(49%) saturate(339%) hue-rotate(332deg) brightness(96%) contrast(93%);*/
       background: #ecb390;
       border-radius: 12px;
